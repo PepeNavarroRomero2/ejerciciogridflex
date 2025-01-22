@@ -47,7 +47,7 @@ const styles = {
         border: "1px solid #ccc",
         borderRadius: "5px",
     },
-    "@media (max-width: 768px)": {
+    '@media (max-width: 768px)': {
         gridContainer: {
             display: "grid",
             gridTemplateAreas: `
