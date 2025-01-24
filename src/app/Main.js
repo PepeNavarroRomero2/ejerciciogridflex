@@ -47,23 +47,5 @@ const styles = {
         border: "1px solid #ccc",
         borderRadius: "5px",
     },
-    '@media (max-width: 768px)': {
-        gridContainer: {
-            display: "grid",
-            gridTemplateAreas: `
-                "header"
-                "sidebar"
-                "main"
-                "extra"
-                "footer"
-            `,
-            gridTemplateColumns: "1fr",
-            gridTemplateRows: "auto auto 1fr auto auto",
-            gap: "10px",
-            height: "auto",
-        },
-        gridItem: {
-            fontSize: "1rem",
-        },
-    },
+    
 };
